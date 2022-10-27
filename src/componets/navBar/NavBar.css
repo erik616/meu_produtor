@@ -1,0 +1,102 @@
+.nav {
+    background-color:#26A03A;
+    max-height:4rem;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+    text-align:center;
+    align-items:center;
+    padding: .8rem 0rem .8rem 2rem;
+}
+
+.menu, h1{
+    color:white;
+}
+
+
+.menu h1{
+    font-size: 2rem;
+}
+
+.name{
+    margin-left:3.5rem;
+}
+
+.options {
+    display:flex;
+}
+
+.search {
+    margin-right:3.5rem;
+}
+
+.basket svg{
+    color:black;
+}
+
+.navbar-container {
+    height: auto;
+}
+
+.navbar-container input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+}
+
+.navbar-container .hamburger-lines {
+    display: block;
+    height: 23px;
+    width: 35px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+}
+
+.navbar-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.navbar-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(35deg);
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-35deg);
+}
+
+
