@@ -8,7 +8,7 @@ export function NavBar() {
             <div className='menu'>
                 <div className="navbar-container container">
                     <input type="checkbox" name="" id="" />
-                    <div class="hamburger-lines">
+                    <div className="hamburger-lines">
                         <span className="line line1"></span>
                         <span className="line line2"></span>
                         <span className="line line3"></span>
@@ -17,13 +17,13 @@ export function NavBar() {
                 <div className='name'>
                     <h1>Meu Produtor</h1>
                 </div>
-                <div className="options">
-                    <div className='search'>
-                        <MagnifyingGlass size="32" />
-                    </div>
-                    <div className='basket'>
-                        <HiOutlineShoppingBag size="32" />
-                    </div>
+                <div className='search'>
+                    <MagnifyingGlass size="32" />
+                </div>
+            </div>
+            <div className="options">
+                <div className='basket'>
+                    <HiOutlineShoppingBag size="32" />
                 </div>
             </div>
         </nav>

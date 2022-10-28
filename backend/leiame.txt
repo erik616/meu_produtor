@@ -1,0 +1,3 @@
+PARA EXECUTAR O JSON
+
+````npm run backend````
