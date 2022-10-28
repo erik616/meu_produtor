@@ -5,7 +5,7 @@
             "produtor": "MariaEu123",
             "nome": "Manteiga de Garrafa Paraiso de Minas",
             "volume": "500ml",
-            "preco": 24.90,
+            "preco": "24,90",
             "descricao":"",
             "foto":"https://conteudo.imguol.com.br/c/entretenimento/8b/2021/08/27/manteiga-de-garrafa-1630068964238_v2_300x400.png"
         },
@@ -14,40 +14,43 @@
             "produtor": "Marcelo30",
             "nome": "Requeijão Caseiro",
             "volume": "1un.",
-            "preco": 30.90,
+            "preco": "30,90",
             "descricao":"",
             "foto":"https://hatandapron.files.wordpress.com/2013/09/1-25.jpg?w=768&h=1160"
         }, 
         {
             "id": 3,
             "produtor": "Rosana",
-            "nome": "Leite a Pronta entrega",
+            "nome": "Leite de Soja a Pronta entrega",
             "volume": "1l",
-            "preco": 5,
-            "descricao":"https://www.daninoce.com.br/wp-content/uploads/2019/01/como-fazer-leite-vegetal-5-receitas-1.jpg"
+            "preco": "5,00",
+            "descricao":"",
+            "foto":"https://zuivelgroeitmetjemee.nl/wp-content/uploads/2021/07/melk.png"
         },
         {
             "id": 4,
             "produtor": "Adriano13",
             "nome": "Doce Leite natural",
             "volume": "300ml",
-            "preco": 13.80,
-            "descricao":"https://www.daninoce.com.br/wp-content/uploads/2017/09/doce-de-leite-ickfd-4.jpg"
+            "preco": "13,00",
+            "descricao":"",
+            "foto":"https://www.daninoce.com.br/wp-content/uploads/2017/09/doce-de-leite-ickfd-4.jpg"
         },
         {
             "id": 5,
             "produtor": "Michael",
             "nome": "Pimenta de Maracuja Paraiso de Minas",
             "volume": "500ml",
-            "preco": 31.50,
-            "descricao":"https://panelinha-sitenovo.s3.sa-east-1.amazonaws.com/receita/1666740649562-geleia_maracuj%C3%A1.jpg"
+            "preco": "31,00",
+            "descricao":"",
+            "foto":"https://panelinha-sitenovo.s3.sa-east-1.amazonaws.com/receita/1666740649562-geleia_maracuj%C3%A1.jpg"
         }, 
         {
             "id": 6,
             "produtor": "Geane",
             "nome": "Rapadura do Gerais",
             "volume": "500g",
-            "preco": 20.50,
+            "preco": "20,00",
             "descricao":"",
             "foto":"http://3.bp.blogspot.com/-BS4-26N_er0/Tsmfc0gQc1I/AAAAAAAAAaA/z0m4c2PgOZk/s1600/rapa2.jpg"
         }
