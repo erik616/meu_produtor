@@ -1,8 +1,10 @@
 .image-container {
-    display: inline-flex;
+  display: inline-flex;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
 }
 
 #image-main {
-    height: 385px;
-    width: 387px;
+  height: 385px;
+  width: 387px;
 }

@@ -1,12 +1,16 @@
 .product-page-product-container {
-    display: flex;
-    max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 2rem 0;
+  margin-left: 4rem;
 }
 
 .product-container-item {
-
 }
 
 .right-container {
-    padding-left: 7rem;
+}
+
+.left-container {
 }
