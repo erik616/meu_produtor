@@ -1,0 +1,19 @@
+.product-produtor-normal {
+
+}
+
+.product-produtor-name {
+    color: #5EBB6D;
+}
+
+* {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: local("Barlow"),
+    url("../../fonts/Barlow/Barlow-Regular.ttf") format("truetype");
+    font-weight: regular;
+}
