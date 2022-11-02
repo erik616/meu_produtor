@@ -1,12 +1,20 @@
-import { Imagesidecontainer } from "../imagesideconteiner/Imagesidecontainer";
-import "./imagecontainer.css"
+import "./imagecontainer.css";
 
-export function Imagecontainer() {
+export function ImageContainer({src}) {
     return (
         <div className="image-container">
-            <Imagesidecontainer />
-            <img id="image-main"src="http://conteudo.imguol.com.br/c/entretenimento/8b/2021/08/27/manteiga-de-garrafa-1630068964238_v2_779x800.png"
-             alt="main-img" />
+            <div className="image-side-container">
+                <img className="images-side" src={src} />
+                <img className="images-side" src={src}
+                    alt="img-3" />
+                <img className="images-side" src={src}
+                    alt="img-4" />
+                <div className='arrow-side-container'>
+                    <img id="arrow-down-side-container" src={src} />
+                </div>
+            </div>
+            <img id="image-main"src={src}
+            alt="main-img" />
         </div>
     )
 }

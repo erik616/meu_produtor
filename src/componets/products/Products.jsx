@@ -40,7 +40,6 @@ export function Products() {
         },1000)
     }, [])
 
-
     return (
         <>
         <NavBar />
