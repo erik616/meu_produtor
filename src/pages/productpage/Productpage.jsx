@@ -1,10 +1,15 @@
-import { Imagecontainer } from "../../componets/imagecontainer/Imagecontainer";
+import { NavBar } from "../../layout/navBar/NavBar";
+import { Footer } from "../../layout/footer/Footer";
+import { ProductPageContainer } from "../../componets/productPageContainer/ProductPageContainer";
+
 import "./productpage.css";
 
 export function ProductPage() {
     return (
-        <div className="product-page">
-            <Imagecontainer />
-        </div>
+        <>
+            <NavBar />
+            <ProductPageContainer />
+            <Footer />
+        </>
     )
 }

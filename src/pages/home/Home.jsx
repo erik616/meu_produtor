@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Products } from "../../componets/products/Products"
-import {ProductPageContainer} from '../../componets/productPageContainer/ProductPageContainer';
+import { ProductPage } from '../productpage/Productpage';
 
 import './home.css'
 
@@ -12,7 +12,7 @@ export function Home() {
 
                     <Route exact path='/' element={<Products />} />
 
-                    <Route path='/productpage/:id' element={<ProductPageContainer />} />
+                    <Route path='/productpage/:id' element={<ProductPage />} />
 
                     <Route path='*' element={<div><h1>Página não encontrada</h1></div>} />
 
