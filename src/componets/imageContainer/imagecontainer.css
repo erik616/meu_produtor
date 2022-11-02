@@ -1,6 +1,7 @@
 .image-container {
     display: inline-flex;
-    margin-right: 4rem;
+    margin-right: 4.2rem;
+    flex-wrap: wrap;
     margin-bottom: 1rem;
   }
   
@@ -12,6 +13,7 @@
   .image-side-container {
     max-width: 100px;
     max-height: 299px;
+
   }
   
   #arrow-down-side-container {
