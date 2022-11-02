@@ -1,14 +1,16 @@
 import { Footer } from "../../componets/footer/Footer";
 import { NavBar } from "../../componets/navBar/NavBar";
 import { Products } from "../../componets/products/Products";
-import { Productpage_productcontainer } from "../../componets/productPage_productContainer/ProductPage_ProductContainer";
+import { ProductPageContainer } from "../../componets/productPageContainer/ProductPageContainer";
+
 export function Home() {
   return (
     <>
       <NavBar />
-      {/* <Productpage_productcontainer /> */}
-      <Products />
+      {/* <Products /> */}
+      <ProductPageContainer title={"Manteiga de Garrafa Paraíso de Minas - 500ml"}
+        name={"Maria Eunice"} price={"24,90"}/>
       <Footer />
     </>
-  );
+  )
 }
