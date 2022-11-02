@@ -1,6 +1,5 @@
 .products{
     width:100%;
-    height:auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -35,10 +34,15 @@
     border-radius: 50%;
     border: none;
     padding: .5rem;
+    cursor: pointer;
 }
 
 .info svg {
     color: #ffffff;
+}
+
+.info button:hover{
+    background-color: #0E6B1D;
 }
 
 .foto{

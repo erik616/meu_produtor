@@ -13,7 +13,6 @@ export function Footer() {
                 <div className="sobre">
                     <h3>Sobre</h3>
                     <h3>Sobre o IFNMG</h3>
-                    <h3>Sobre o IFNMG</h3>
                     <span>Versão 1.0.0</span>
                 </div>
                 <div className="nos">

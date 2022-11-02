@@ -1,6 +1,9 @@
 footer{
     width:100;
-    height:280px;
+    min-height:280px;
+    height: auto;
+    display: flex;
+    align-items: center;
     background-color: #0E6B1D;
     color: #ffffff;
 }
