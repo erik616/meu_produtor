@@ -3,7 +3,11 @@
   flex-wrap: wrap;
 
   margin: 2rem 0;
+  max-width: 99%;
+  
   justify-content: center;
+  margin-bottom: 1rem;
+
 
 }
 
@@ -11,6 +15,7 @@
 }
 
 .right-container {
+  margin-right: 1rem;
 }
 
 .left-container {
@@ -104,4 +109,204 @@
   src: local("Barlow"),
   url("../../fonts/Barlow/Barlow-Bold.ttf") format("truetype");
   font-weight: bold;
+}
+.product-avalible-container {
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+.product-avalible {
+  padding-right: 5rem;
+  font-family: 'BarlowCondensed';
+  font-weight: regular;
+  font-size: 18px;
+  color:#1ee63f;
+}
+
+.product-selected-text {
+  font-family: 'BarlowCondensed';
+  font-weight: semibold;
+  font-size: 20px;
+  color: #4B4747;
+}
+
+.product-select-button {
+  background-color: #1ee63f00;
+  color:#4B4747;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;;
+}
+
+.product-add-button {
+  background-color: #19b433;
+
+  max-width: 462px;
+  max-height: 73px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2rem;
+  border:none;
+  border-radius: 15px;
+
+}
+
+.product-add-button-text {
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  max-width: 38px;
+}
+
+.product-add-icon {
+  padding-left: 15px;
+  width: 53px;
+  height: 53px;
+  vertical-align: -50%;
+}
+
+.product-order-button {
+
+  background-color: #19b433;
+
+  max-width: 270px;
+  max-height: 56px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2rem;
+  border:none;
+  border-radius: 15px;
+  width: 280px;
+  height: 56px;
+}
+
+.product-order-text {
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  max-width: 38px;
+}
+
+.product-more-container {
+  padding:1rem;
+  margin-right: 5rem;
+}
+.product-more-text {
+  padding-bottom: 10px;
+}
+.product-more-imgs {
+  max-width: 150px;
+  padding-right: 1rem;
+}
+
+.product-page-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-productor-msg-icon {
+  vertical-align: -11%;
+  padding-left: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.product-productor-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.msg-icon {
+  width: 42px;
+  height: 39px;
+  vertical-align: -21%;
+}
+.product-order-button-msg {
+  border-radius: 10px;
+  margin-left: 40px;
+  background-color: #19b433;
+  margin-top: 2px;
+  margin-bottom: 2rem;
+  width: 57px;
+  height:51px;
+  border: none;
+}
+
+.productor-button-text {
+  color: #ffffff;
+  font-family: 'Barlow';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.product-description-title {
+  font-family: 'Barlow';
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+}
+
+.product-description {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 36px;
+}
+
+.productor-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.productor-left-container {
+  display: inline;
+  margin-right: 4rem;
+}
+
+.productor-photo {
+  max-width: 544px;
+  max-height: 301px;
+
+}
+
+.productor-button {
+  border-radius: 10px;
+  background-color: #19b433;
+  margin-top: 2px;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  width: 100%;
+  height: 51px;
+  border: none;
+}
+
+.productor-description {
+  max-width: 400px;
+  font-size: 28;
+  margin-bottom: 2rem;
+}
+
+.productor-name {
+  font-family: 'Barlow';
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 1rem;
+  color: #19b433;
+
 }
